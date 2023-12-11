@@ -39,7 +39,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.WEBSITE_ACCESS_TOKENS }}
-          external_repository: https://github.com/oseyosey/oseyincs.github.com
+          external_repository: oseyosey/oseyincs.github.com
           publish_branch: main
           publish_dir: ./public
           cname: oseyincs.io
