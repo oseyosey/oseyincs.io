@@ -44,6 +44,7 @@ jobs:
           publish_dir: ./public
           cname: oseyincs.io
 
+
       - name: Deploy to test
         if: ${{ github.ref != 'refs/heads/main' }}
         uses: peaceiris/actions-gh-pages@v3
